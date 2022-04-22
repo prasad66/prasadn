@@ -17,10 +17,6 @@ const projects: ProjectType[] = [
   allProjects.whatsapp,
   allProjects.expense,
   allProjects.todos,
-  // allProjects.thisWebsite,
-  // allProjects.theMealHub,
-  // allProjects.pokemon,
-  // allProjects.jokes,
 ];
 
 function projectsPage() {

@@ -1,12 +1,6 @@
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import { scroller } from "react-scroll";
-import {
-  Toolbar,
-  Grid,
-  Container,
-  IconButton,
-  Hidden,
-} from "@material-ui/core";
+import { Toolbar, Grid, Container, IconButton } from "@material-ui/core";
 import Avatar from "@material-ui/core/Avatar";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 

@@ -6,11 +6,9 @@ import Header from "components/Header";
 import Skills from "components/Skills";
 import Projects from "components/Projects";
 import ProjectsTitle from "components/Projects/ProjectsTitle";
-// import Footer from "components/Footer";
 import AllProjectsButton from "components/Projects/AllProjectsButton";
 
 import allProjects, { ProjectType } from "lib/projects";
-// import Footer1 from "components/Footer1";
 import Footer2 from './../components/Footer2';
 
 const projects: ProjectType[] = [

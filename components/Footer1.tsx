@@ -21,7 +21,6 @@ import {
 import MailIcon from "@material-ui/icons/Mail";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import SendIcon from "@material-ui/icons/Send";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
@@ -91,9 +90,9 @@ function Footer() {
   const emailRef = useRef<HTMLInputElement>(null!);
   const messageRef = useRef<HTMLInputElement>(null!);
 
-  const handleClick = () => {
-    setOpen(true);
-  };
+  // const handleClick = () => {
+  //   setOpen(true);
+  // };
 
   const handleClose = (
     _event: SyntheticEvent | MouseEvent,
@@ -105,7 +104,7 @@ function Footer() {
     setOpen(false);
   };
 
-  const handleFormSubmit =async  (e: FormEvent<HTMLFormElement>) => {
+  const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const url = process.env.NEXT_PUBLIC_API!;
     console.log(url);
@@ -115,7 +114,7 @@ function Footer() {
     // formData.append("email", emailRef.current.value);
     // formData.append("message", messageRef.current.value);
     // // console.log(nameRef.current.value, emailRef.current.value, messageRef.current.value)
-   const res =  await fetch(url, { 
+    await fetch(url, {
       method: "POST",
       body: JSON.stringify({
         name: nameRef.current.value,
@@ -126,7 +125,6 @@ function Footer() {
         Accept: "application/json",
       },
     })
-    
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Status Code Error ${res.status}`);
@@ -143,7 +141,7 @@ function Footer() {
         console.log(error);
         setMessage("Error sending message");
         setOpen(true);
-      }); 
+      });
   };
 
   return (
