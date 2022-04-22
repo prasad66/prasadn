@@ -157,14 +157,14 @@ function Skills() {
           <h1 className="vertical-timeline-element-title">Cognizant</h1>
           <h4 className="vertical-timeline-element-subtitle">Chennai</h4>
           <h4 className="vertical-timeline-element-subtitle">
-            Current Role : Associate
+            Current Role : Software Engineer
           </h4>
-          <p>
+          {/* <p>
             Worked with Java Applications for enhancement works.
             <br />
             Worked in Linux shell scripting for migrating to AWS along with
             oracle database PL/SQL
-          </p>
+          </p> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

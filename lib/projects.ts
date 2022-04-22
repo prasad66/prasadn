@@ -191,17 +191,17 @@ const projects: Projects = {
     ],
     links: {
       live: "https://sharemepvt.netlify.app/",
-      github: "https://github.com/prasad66/covid-19-tracker.git",
+      github: "https://github.com/prasad66/shareme.git",
     },
   },
   google: {
     title: "Google Search Clone",
     description: [
-      "Connect-4 board game that allows you to **play with anyone around the world** with no registration or downloads. You and your friend just need to open the link in the browser and you're ready to play 🙂",
-      "The frontend is built using **React** and styled using **material-ui** and backend built using **node.js**.",
-      "**socket.io** library is used for live transfer of data from client to server using websockets.",
-      "The app supports multiple games running parallel, means multiple pair of people can play on the same website at the same time without any interference.",
-      "If you wish to test this project, you must run the url on different browsers, or better check my **[video explaining how it works](https://www.linkedin.com/posts/bhavya-tomar_careerhack-github-hackathon-activity-6760854974944694272-aEDM)** that I posted on LinkedIn.",
+      "This is the Search Clone of the **Google Search** Engine",
+      "Using **Next JS** the server side rendering is done so ther wont be any late loading of the pages",
+      "The user can search for any query and the results will be shown related for the search term",
+      "The results displayed are limited page by page to make the pagination possible ",
+      "This is a mobile responsive design and designed using **Tailwind CSS**",
     ],
     stack: [logos.nextjs, logos.tailwind],
     links: {
@@ -221,13 +221,11 @@ const projects: Projects = {
   expense: {
     title: "Expense Tracker",
     description: [
-      "Goal tracker app made with my friend for a **hackthon that we won.**",
-      "The challenge for the hackathon was to make a **CRUDy** web application for goal management.",
-      "The application is made using **React** and styled using **material-ui.**",
-      "Features of the app are **create, update, edit and delete** goals. Add **labels** to goal, Start a **timer to track** the time spent for goal, **timer keeps running even when the window is closed!**",
-      "**Filter** goals by hashtag and/or text, **sort** goals by time spent per goal.",
-      "View a **Bar graph** that displays the amount of time spent per goal.",
-      "Check this video made by my hackathon partner **Priya Aswani** **[explaining how it works](https://www.linkedin.com/posts/activity-6755554068011319296-VlpE)**",
+      "Expense Tracker application - A **Voice Based Tracker** - is used to track the expenses based on the Income and Expenses",
+      "This is created using **React** and styled using **Material UI**",
+      "The Expense can also be recorded using **voice recognition**, both the income and expenses can be recorded",
+      "The state is managed through **Redux** and the data is stored in the local storage",
+      "The application is fully responsive for all screen sizes",
     ],
     links: {
       github: "https://github.com/prasad66/Expense-Tracker.git",
@@ -249,11 +247,11 @@ const projects: Projects = {
   whatsapp: {
     title: "WhatsApp Clone",
     description: [
-      "My very first **fullstack Typescript** web application.",
-      "As the title suggests, the app can be used to shorten urls that can be shared with anyone on the internet.",
-      "A **QR code** is also generated when submitting a URL that can be scanned to redirect to the original URL.",
-      "The frontend is built using **React** with **Material-UI** for styling.",
-      "The backend is build with **Node.js** with **Express.js** framework along with **MongoDB** database to store the URLs.",
+      "This is a clone of the WhatsApp application focused on **One-to-One** Chat",
+      "The Users are authenticated using **Google Authentication**",
+      "THe users can chat to another user using their email ID",
+      "The profile picture of the other user will be visible after they signin",
+      "The last seen of the user is also updated.",
     ],
     images: {
       main: {
@@ -267,12 +265,8 @@ const projects: Projects = {
       live: "https://short-url-three.vercel.app/",
     },
     stack: [
-      logos.typescript,
-      logos.react,
-      logos.expressjs,
+      logos.nextjs,
       logos.materialui,
-      logos.mongodb,
-      logos.nodejs,
     ],
   },
 

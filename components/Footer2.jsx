@@ -258,7 +258,7 @@ const Footer2 = () => {
                                     horizontal: "left",
                                 }}
                                 open={open}
-                                autoHideDuration={1000}
+                                autoHideDuration={3000}
                                 onClose={handleClose}
                                 message={message}
                                 action={
