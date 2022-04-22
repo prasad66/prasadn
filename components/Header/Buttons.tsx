@@ -62,14 +62,14 @@ function Buttons() {
         </Link>
       </Box>
       <Box className={classes.bigButtonsContainer} mt={2}>
-        <NextLink href="https://drive.google.com/file/d/1iwLqfJgxup_zp-ULyRekZv7YWtw8Z9pv/view?usp=sharing">
+        <NextLink href="https://drive.google.com/file/d/1muqsSZUAwdZxYRV6BJ24Yutx0spKDfbt/view?usp=sharing">
           <Button
             component="a"
             variant="contained"
             color="secondary"
             className={classes.bigButton}
             startIcon={<DescriptionIcon />}
-            href="https://drive.google.com/file/d/1iwLqfJgxup_zp-ULyRekZv7YWtw8Z9pv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1muqsSZUAwdZxYRV6BJ24Yutx0spKDfbt/view?usp=sharing"
             target="_blank"
           >
             Resume

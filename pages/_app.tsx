@@ -11,6 +11,7 @@ import { AppProps } from "next/app";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { lime, red } from "@material-ui/core/colors";
 import { createMuiTheme } from "@material-ui/core/styles";
+import DescriptionIcon from "@material-ui/icons/Description";
 import {
   AppBar,
   Toolbar,
@@ -100,15 +101,7 @@ function Resume(props: Props) {
     threshold: 100,
   });
 
-  const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
-    const anchor = (
-      (event.target as HTMLDivElement).ownerDocument || document
-    ).querySelector("#back-to-top-anchor");
-
-    if (anchor) {
-      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
-  };
+  const handleClick = () => window.open('https://drive.google.com/file/d/1muqsSZUAwdZxYRV6BJ24Yutx0spKDfbt/view?usp=sharing','_blank');
 
   return (
     <Zoom in={trigger}>
@@ -466,7 +459,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
       </ScrollTop>
       <Resume>
         <Fab color="secondary" size="medium" aria-label="scroll back to top">
-          <KeyboardArrowUpIcon />
+            <DescriptionIcon />
         </Fab>
       </Resume>
     </>
