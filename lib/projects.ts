@@ -261,8 +261,8 @@ const projects: Projects = {
       },
     },
     links: {
-      github: "https://github.com/BhavyaCodes/url-shortener-ts-backend",
-      live: "https://short-url-three.vercel.app/",
+      github: "https://github.com/prasad66/whatsapp-2.git",
+      live: "https://whatsapp0204.vercel.app/",
     },
     stack: [
       logos.nextjs,
