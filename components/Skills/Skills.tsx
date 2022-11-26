@@ -157,7 +157,7 @@ function Skills() {
           <h1 className="vertical-timeline-element-title">TATA Communications</h1>
           <h4 className="vertical-timeline-element-subtitle">Chennai</h4>
           <h4 className="vertical-timeline-element-subtitle">
-            Current Role : Software Engineer
+            Current Role : Senior Engineer
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
