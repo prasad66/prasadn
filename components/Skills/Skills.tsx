@@ -150,7 +150,24 @@ function Skills() {
             color: `${textColor}`,
           }}
           contentArrowStyle={{ borderRight: `7px solid  ${contentColor}` }}
-          date="November ' 19 - present"
+          date="May ' 22 - Present"
+          iconStyle={{ background: `${contentColor}`, color: `${color}` }}
+          icon={<WorkIcon />}
+        >
+          <h1 className="vertical-timeline-element-title">TATA Communications</h1>
+          <h4 className="vertical-timeline-element-subtitle">Chennai</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Current Role : Software Engineer
+          </h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: `${contentColor}`,
+            color: `${textColor}`,
+          }}
+          contentArrowStyle={{ borderRight: `7px solid  ${contentColor}` }}
+          date="November ' 19 - May ' 22"
           iconStyle={{ background: `${contentColor}`, color: `${color}` }}
           icon={<WorkIcon />}
         >
@@ -159,12 +176,6 @@ function Skills() {
           <h4 className="vertical-timeline-element-subtitle">
             Current Role : Software Engineer
           </h4>
-          {/* <p>
-            Worked with Java Applications for enhancement works.
-            <br />
-            Worked in Linux shell scripting for migrating to AWS along with
-            oracle database PL/SQL
-          </p> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
